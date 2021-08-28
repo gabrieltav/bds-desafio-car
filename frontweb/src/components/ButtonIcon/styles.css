@@ -1,5 +1,5 @@
 .btn-home-container {
-  margin: 10px 5px 121px 5px;
+  margin: 21px 10px 121px 10px;
   background: #ededed;
   border-radius: 10px;
 }
@@ -36,7 +36,7 @@
 
 @media (min-width: 576px) {
   .btn-home-container {
-    margin: 15px 10px 102px 10px;
+    margin: 30px 20px 102px 20px;
   }
 
   .btn-container {
@@ -68,14 +68,9 @@
   }
 }
 
+
 @media (min-width: 1280px) {
   .btn-home-container {
-    margin: 30px 150px 150px 120px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .btn-home-container {
-    margin: 30px 150px 150px 150px;
+    margin: 30px 130px 150px 100px;
   }
 }

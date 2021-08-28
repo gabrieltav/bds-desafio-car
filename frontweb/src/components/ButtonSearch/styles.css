@@ -2,17 +2,16 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-
+  text-align: center;
   min-width: 285px;
   min-height: 86px;
-  text-align: center;
   margin: 20px 10px;
   background: #ededed;
   border-radius: 10px;
 }
 
 .car-filter-form input {
-  padding: 21px 14px 24px 10px;
+  height: 40px;
 }
 
 .car-filter-form input {
@@ -32,8 +31,6 @@
 .btn-icon-search {
   width: 77px;
   height: 40px;
-  left: 219px;
-  top: 111px;
   border-radius: 0 5px 5px 0;
 }
 
@@ -94,15 +91,13 @@
 @media (min-width: 992px) {
   .btn-card-container-search {
     min-width: 700px;
-    margin: 30px;
+    margin: 30px 30px 0 30px;
   }
 }
 
 @media (min-width: 1280px) {
   .btn-card-container-search {
-    margin-left: 75px;
-    margin-right: 75px;
-    margin-top: 30px;
+    margin: 30px 105px 0 105px;
   }
 
   .car-filter-form input {
@@ -110,3 +105,22 @@
     height: 40px;
   }
 }
+
+@media (min-width: 1280px) {
+  .btn-card-container-search {
+    margin: 30px 90px 0 90px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .btn-card-container-search {
+    margin: 30px 115px 0 115px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .btn-card-container-search {
+    margin: 30px 360px 0 360px;
+  }
+}
+

@@ -22,9 +22,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <Link to="/products">
-          <ButtonIcon />
-        </Link>
+        <ButtonIcon />
       </div>
     </div>
   );
