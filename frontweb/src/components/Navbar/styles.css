@@ -4,13 +4,17 @@
 }
 
 .nav-logo-text,
-.nav-logo-text:hover{
+.nav-logo-text:hover {
   color: #00285f;
   font-weight: 700;
 }
 
-.navbar-toggler {
-  background-color: #00285F;
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,40,91, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler  {
+  border-color: #f78b00;
 }
 
 .main-menu {
@@ -31,4 +35,35 @@
 .main-menu a.active {
   color: #00285f;
   font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .main-nav {
+    padding-left: 88px;
+  }
+}
+
+@media (min-width: 768px) {
+  .collapse {
+    justify-content: flex-end;
+    margin-right: 65px;
+  }
+}
+
+@media (min-width: 992px) {
+  .collapse {
+    margin-right: 203px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .collapse {
+    margin-right: 491px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .collapse {
+    margin-right: 500px;
+  }
 }
